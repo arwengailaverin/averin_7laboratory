@@ -2,15 +2,15 @@
 name = str(input("Name: "))
 sec = str(input("Section: "))
 #input grades from prelims to finals
-prelim = float(input("Enter the Preliminary Period Grade: "))
+prelim = float(input("Enter Preliminary Period Grade: "))
 if prelim < 40 or prelim > 100 or prelim == " ":
     print("Grade is invalid. Please try again later.")
 else:
-    midterm = float(input("Enter the Midterm Period Grade: "))
+    midterm = float(input("Enter Midterm Period Grade: "))
     if midterm < 40 or midterm > 100 or midterm == " ":
         print("Grade is invalid. Please try again later.")
     else:
-        finals = float(input("Enter the Final Period Grade: "))
+        finals = float(input("Enter Final Period Grade: "))
         if finals < 40 or finals > 100 or finals == " ":
             print("Grade is invalid. Please try again later.")
         else:
