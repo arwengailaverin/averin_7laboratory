@@ -4,15 +4,15 @@ sec = str(input("Section: "))
 #input grades from prelims to finals
 prelim = float(input("Enter Preliminary Period Grade: "))
 if prelim < 40 or prelim > 100 or prelim == " ":
-    print("Grade is invalid. Try again later.")
+    print("Grade is invalid. Try again.")
 else:
     midterm = float(input("Enter Midterm Period Grade: "))
     if midterm < 40 or midterm > 100 or midterm == " ":
-        print("Grade is invalid. Try again later.")
+        print("Grade is invalid. Try again.")
     else:
         finals = float(input("Enter Final Period Grade: "))
         if finals < 40 or finals > 100 or finals == " ":
-            print("Grade is invalid. Try again later.")
+            print("Grade is invalid. Try again.")
         else:
             final_grade = round((prelim * 0.3333) + (midterm * 0.3333) + (finals * 0.3333))
 #calculate grades and set GPA
